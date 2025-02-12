@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header(start)-->
+    <header id="app-header" class="app-header">
+        <nav class="app-header-left"> <a href="webapp.html">FrameFix Australia</a></nav>
+        <nav class="app-header-right">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Header(end)-->
+
+    <!--Home(start)-->
+    <div id="home" class="container">
+        <div class="sectionContainer">
+            <div>
+                <div class="sectionHeader">
+                    <div>Home</div>
+                </div>
+                <div class="innerSection">
+                    <div>
+                        <img src="supernatural.jpg" alt="broken-image" />
+                    </div>
+                    <div class="innerSection">
+                        <img class="smallImage" src="image2.jpg" alt="broken-image" />
+                        <div class="largeWhiteFont">
+                            Transforming visions into captivating stories, one frame at a time.
+                            <hr color="black"> Cheers,
+                            <br>
+                            <b>FrameFix Australia</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionFooter">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+    <!--Home(end)-->
+
+    <div id="vlog" class="container">
+        <div class="sectionContainer">
+            <div>
+                <div class="sectionHeader">
+                    <div>vlog</div>
+                </div>
+                <div class="innerSection">
+                    <div>
+                        <img src="supernatural.jpg" alt="broken-image" />
+                    </div>
+                    <div class="innerSection">
+                        <img class="smallImage" src="image2.jpg" alt="broken-image" />
+                        <div class="largeWhiteFont">
+                            Transforming visions into captivating stories, one frame at a time.
+                            <hr color="black"> Cheers,
+                            <br>
+                            <b>FrameFix Australia</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jadu">
+            <div>
+                <div>headeing</div>
+                <div>text</div>
+            </div>
+            <div>
+                <div>headeing</div>
+                <div>text</div>
+            </div>
+            <div>
+                <div>headeing</div>
+                <div>text</div>
+            </div>
+            <div>
+                <div>headeing</div>
+                <div>text</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

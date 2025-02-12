@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header(start)-->
+    <header id="app-header" class="app-header">
+        <nav class="app-header-left">FrameFix Australia</nav>
+        <nav id="portfolioSection" class="app-header-left">Music Videos</nav>
+    </header>
+    <!--Header(end)-->
+
+    <!--Home(start)-->
+    <div id="portfolio">
+        <div id="home" class="container">
+        </div>
+        <div class="sectionContainer">
+            <div class="">
+                <div>
+                    <img src="supernatural.jpg" alt="broken-image" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Home(end)-->
+</body>
+
+<script src="index.js"></script>
+
+</html>

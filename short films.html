@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Films - FrameFix Australia</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="music.css" rel="stylesheet">
+    <link href="portfolio_child.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #12c2e9;
+            --secondary-color: #c471ed;
+            --tertiary-color: #f64f59;
+            --text-color: white;
+            --font-family: 'Raleway', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            background-color: #101820;
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        .app-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 15px 10%;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .app-header a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Media Box Layout */
+        .mediaBox {
+            display: flex;
+            justify-content: center;
+            padding: 80px 10%;
+            gap: 30px;
+            margin-top: 100px;
+            background-color: #181b23;
+            flex-wrap: wrap; /* Allows content to stack on smaller screens */
+        }
+
+        /* Left Media (Video) */
+        .mediaBoxleft {
+            flex: 1;
+            max-width: 500px;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .mediaBoxleft video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Right Media (List of Short Films) */
+        .mediaBoxRight {
+            flex: 1;
+            max-width: 350px;
+            margin-bottom: 30px;
+        }
+
+        .mediaboxHeader {
+            font-size: 28px;
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .mediaList {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .mediaLi {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: #222;
+            padding: 15px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        .mediaLi:hover {
+            background-color: var(--primary-color);
+        }
+
+        .iconImg {
+            width: 90px;
+            height: 90px;
+            margin-right: 15px;
+            border-radius: 8px;
+        }
+
+        .innerFooterSectionInfo {
+            font-size: 16px;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+
+        /* Pagination */
+        .pagination {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .page-btn {
+            padding: 8px 12px;
+            background-color: #333;
+            color: var(--text-color);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .page-btn:hover {
+            background-color: var(--primary-color);
+        }
+
+        .page-step {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .mediaBox {
+                flex-direction: column;
+                padding: 60px 5%;
+                gap: 20px;
+            }
+
+            .mediaBoxRight {
+                flex: 1;
+                max-width: 100%;
+            }
+
+            .mediaBoxleft {
+                flex: 1;
+                max-width: 100%;
+            }
+
+            .mediaLi {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 10px;
+            }
+
+            .iconImg {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 10px;
+            }
+
+            .pagination {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <nav class="app-header-left">
+            <a href="home.html">FrameFix Australia</a>
+        </nav>
+        <nav class="app-header-right">
+            <a href="short films.html">Short Films</a>
+        </nav>
+    </header>
+
+    <!-- Media Box Section -->
+    <div id="Short Films" class="mediaBox sectionContainer">
+        <div class="mediaBoxleft">
+            <video src="video/spider.mp4" autoplay loop muted></video>
+        </div>
+        <div class="mediaBoxRight">
+            <div class="mediaboxHeader">
+                All Short Films
+            </div>
+            <ul class="mediaList">
+                <li>
+                    <div class="innerFooterSection mediaLi">
+                        <div><img src="TABLE CHAIR.JPG" alt="image" class="iconImg" /></div>
+                        <div class="innerFooterSectionInfo">Matte - black</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="innerFooterSection mediaLi">
+                        <div><img src="sofa.JPG" alt="image" class="iconImg" /></div>
+                        <div class="innerFooterSectionInfo">Range - Rover</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="innerFooterSection mediaLi">
+                        <div><img src="nuke shadow.jpeg" alt="image" class="iconImg" /></div>
+                        <div class="innerFooterSectionInfo">Spider - Web</div>
+                    </div>
+                </li>
+            </ul>
+            <!-- Pagination -->
+            <div class="pagination">
+                <span class="page-btn page-step" data-shown="1">&laquo;</span>
+                <a href="#page-1" id="page-1" class="page-btn">1</a>
+                <a href="#page-2" id="page-2" class="page-btn">2</a>
+                <a href="#page-3" id="page-3" class="page-btn">3</a>
+                <span class="page-btn page-step" data-shown="1">&raquo;</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>

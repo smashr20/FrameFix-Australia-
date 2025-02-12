@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header(start)-->
+    <header id="app-header" class="app-header">
+        <nav class="app-header-left"> <a href="webapp.html">FrameFix Australia</a></nav>
+        <nav class="app-header-right">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Header(end)-->
+
+    <!--Home(start)-->
+    <div id="home" class="container">
+        <div class="sectionContainer">
+            <div class="rahul">
+                <div class="sectionHeader">
+                    <div onclick="oreo()">Home</div>
+                </div>
+                <div class="innerSection">
+                    <div>
+                        <img src="supernatural.jpg" alt="broken-image" />
+                    </div>
+                    <div class="innerSection">
+                        <img class="smallImage" src="image2.jpg" alt="broken-image" />
+                        <div class="largeWhiteFont">
+                            Transforming visions into captivating stories, one frame at a time.
+                            <hr color="black"> Cheers,
+                            <br>
+                            <b>FrameFix Australia</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionFooter">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+    <!--Home(end)-->
+
+    <!--About(start)-->
+    <div id="about" class="container">
+        <div class="sectionContainer">
+            <div>
+                <div class="sectionHeader">
+                    <div>About me</div>
+                </div>
+                <div class="innerSection">
+                    <div>
+                        <img src="image1.jpg" alt="broken-image" />
+                    </div>
+                    <div class="innerSection">
+                        <img class="smallImage" src="supernatural.jpg" alt="broken-image" />
+                        <div class="konrak">
+                            Transforming visions into captivating stories, one frame at a time.
+                            <hr color="black"> Cheers,
+                            <br>
+                            <b>FrameFix Australia</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionFooter">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+    <!--About(end)-->
+
+    <!--Portfolio(start)-->
+    <div id="portfolio" class="container">
+        <div class="sectionContainer">
+            <div>
+                <div class="sectionHeader">
+                    <div>Portfolio</div>
+                </div>
+                <div class="innerSection">
+                    <div>
+                        <img src="image2.jpg" alt="broken-image" />
+                    </div>
+                    <div class="innerSection">
+                        <img class="smallImage" src="supernatural.jpg" alt="broken-image" />
+                        <div class="largeWhiteFont">
+                            Transforming visions into captivating stories, one frame at a time.
+                            <hr color="black"> Cheers,
+                            <br>
+                            <b>FrameFix Australia</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionFooterList">
+            <div class="innerFooterSection">
+                <div>Short Films</div>
+                <div class="innerFooterSectionInfo">some text here sdlkcnsdkjjcnsd klsdc kjgjhsdjbc</div>
+            </div>
+            <div class="innerFooterSection">
+                <div>Music Videos</div>
+                <div class="innerFooterSectionInfo">some text here slksdcnsd c sdkjcnsjkdcnjksdccskjdn jsdsdn</div>
+            </div>
+            <div class="innerFooterSection">
+                <div>VFX</div>
+                <div class="innerFooterSectionInfo">some text here sdjkjsdnsdkjcjbsdkjc sdkjnsdsd sdkjsd</div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio(end)-->
+
+    <!--services(start)-->
+    <div id="services" class="container">
+        <div class="sectionContainer">
+            <div>
+                <div class="sectionHeader">
+                    <div>Portfolio</div>
+                </div>
+                <div class="innerSection">
+                    <div>
+                        <img src="image2.jpg" alt="broken-image" />
+                    </div>
+                    <div class="innerSection">
+                        <div class="largeWhiteFont">
+                            Transforming visions into captivating stories, one frame at a time.
+                            <hr color="black"> Cheers,
+                            <br>
+                            <b>FrameFix Australia</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionFooterList">
+            <div class="innerFooterSection">
+                <div>Short Films</div>
+                <div class="innerFooterSectionInfo">some text here sdlkcnsdkjjcnsd klsdc kjgjhsdjbc</div>
+            </div>
+            <div class="innerFooterSection">
+                <div>Music Videos</div>
+                <div class="innerFooterSectionInfo">some text here slksdcnsd c sdkjcnsjkdcnjksdccskjdn</div>
+            </div>
+            <div class="innerFooterSection">
+                <div>VFX</div>
+                <div class="innerFooterSectionInfo">some text here sdjkjsdnsdkjcjbsdkjc sdkjnsdsd</div>
+            </div>
+            <div class="innerFooterSection">
+                <div>VFX</div>
+                <div class="innerFooterSectionInfo">some text here sdjkjsdnsdkjcjbsdkjc sdkjnsdsd</div>
+            </div>
+        </div>
+    </div>
+    <!--services(end)-->
+
+    <!--services(start)-->
+    <table id="services" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle">
+                            <font face="Verdana" size="7" color="#4CAF50">
+                                Achievements
+                                <hr color="#4CAF50" width="100">
+                            </font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <font face="Verdana" size="4" color="white">
+                                <ul>
+                                    <li>
+                                        <b>Intern at GeeksforGeeks.</b>
+                                        <ul>
+                                            <li>
+                                                December,2020 - Present.
+                                            </li>
+                                            <li>
+                                                Write technical articles
+                                                on programming related topics.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <b>Microsoft Learn Student Ambassador.</b>
+                                        <ul>
+                                            <li>
+                                                August,2020 - Present.
+                                            </li>
+                                            <li>
+                                                Conducted events and workshops on
+                                                different technologies.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <b>Mentored HackTX.</b>
+                                        <ul>
+                                            <li>
+                                                October,2020.
+                                            </li>
+                                            <li>
+                                                Selected from Microsoft as Student
+                                                ambassador where I mentored students
+                                                in their projects.
+                                            </li>
+                                            <hr color="black">
+                                            <hr color="black">
+                                            <hr color="black">
+                                            <hr color="black">
+                                            <hr color="black">
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--services(end)-->
+
+
+    <!--Contact(start)-->
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="Verdana" size="7" color="black">
+                                Contact
+                            </font>
+                            <hr color="black" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="50%" cellpadding="15" cellspacing="0" align="center"
+                                bgcolor="black">
+                                <tr>
+                                    <td width="30%">
+                                        <hr color="black">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Name
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Email
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="email" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Number
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <input type="number" size="12">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            Message
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" color="#ffffff">
+                                            <textarea rows="5" cols="37">
+											</textarea>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+
+                                    </td>
+                                    <td width="70%">
+                                        <button type="Submit">
+                                            <font face="Verdana" size="4" color="black">
+                                                <b>Submit</b>
+                                            </font>
+                                        </button>
+                                        <hr color="black">
+                                        <hr color="black">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Contact(end)-->
+
+
+    <!--Footer1(start)-->
+    <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="13%" valign="top">
+                            <b>LinkedIn</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>GitHub</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>HackerRank</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>GeeksforGeeks</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Twitter</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Instagram</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Email</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Website</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer1(end)-->
+
+
+    <!--Footer2(start)-->
+    <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="80%" valign="top">
+                            <font face="Verdana" color="#4CAF50" size="5">
+                                ©Copyright 2050 by nobody.
+                                All rights reserved.
+                            </font>
+                        </td>
+
+                        <td width="10%">
+                            <font face="arial" color="black" size="5">
+                                <a href="#home" style="text-decoration:none">
+                                    <font face="Verdana" color="#4CAF50" size="6">
+                                        <b>TOP</b>
+                                    </font>
+                                </a>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer2(end)-->
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
